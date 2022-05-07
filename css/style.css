@@ -1,0 +1,434 @@
+:root{
+    --ff1:'Open Sans', sans-serif;
+}
+*{
+    margin:0;
+    padding:0;
+}
+img{
+	vertical-align: middle;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+/* common css ends */
+
+/* font css starts */
+.open-reg{
+	font-family: var(--ff1);
+	font-weight:400;
+}
+.open-sbold{
+	font-family: var(--ff1);
+	font-weight:600;
+}
+.open-bold{
+	font-family: var(--ff1);
+	font-weight:800;
+}
+.open-exbold{
+	font-family: var(--ff1);
+	font-weight:800;
+}
+/* font css ends  */
+
+/* navbnar part satrts */
+.navbar{
+    position:absolute;
+    top:30px;
+    left:0;
+    z-index:99999;
+    width:100%;
+    background:#fff;
+}
+.nav-fix{
+    position:fixed;
+    top: 0px;
+    left: 0;
+    z-index: 999999;
+    background:#f1f1f1;
+    animation: navfix 1s linear;
+    -webkit-animation: navfix 1s linear;
+}
+@keyframes navfix{
+    0%{
+        top: -100px;
+    }
+    100%{
+        top:0px;
+    }
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+	padding-right:0;
+	padding-left: 0;
+    color:#54524f;
+    margin-right: 60px;
+    font-size:18px;
+    transition:all linear 0.4s;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    color:#e2a355;
+}
+.navbar form button {
+	width: 156px;
+	outline: none;
+	border: none;
+    background:#c3bfbc;
+    border-radius:25px;
+    transition:all linear 0.4s;
+}
+.navbar form button i {
+	color: #54524f;
+	margin-left: 85px;
+    transition:all linear 0.4s;
+}
+.navbar form button:hover{
+    background:#e2a355;
+}
+.navbar form button:hover i{
+    color:#fff;
+}
+/* navbnar part satrts */
+
+/* banner part satrts */
+#banner {
+	background: url(../images/banner.png) no-repeat center / cover;
+	height: 550px;
+	padding-top: 154px !important;
+	margin-top: 170px;
+}
+#banner .banner-text h1 {
+	padding-right: 125px;
+	font-size: 70px;
+    color:#e2a355;
+    margin-top:-70px;
+    transition:all linear 0.4s;
+}
+#banner .banner-text h1:hover{
+    color:#7f7770;
+}
+#banner .banner-text h4 {
+	font-size: 20px;
+    color:#54524f;
+    margin-top:10px;
+    font-style: italic;
+}
+#banner .banner-text a{
+	font-size: 18px;
+    color:#776c64;
+    margin-top:65px;
+    background: #fff;
+    border-radius:30px;
+    padding:6px 20px;
+    transition:all linear 0.4s;
+}
+#banner .banner-text a:hover{
+    background:#e2a355;
+    color:#fff;
+}
+#banner .banner-text p {
+	font-size: 16px;
+	color: #54524f;
+	margin-top: 20px;
+	font-style: italic;
+	padding-right: 124px;
+}
+/* banner part ends */
+
+/* about part starts */
+#about{
+    margin-top:40px;
+    padding-top:100px;
+}
+#about .about-head h4{
+    font-size:50px !important;
+    color:#e2a355;
+}
+#about .about-head p {
+	font-size: 20px !important;
+	color: #7f7770;
+	padding: 0 307px;
+    margin-top:20px;
+    padding-bottom:70px !important;
+}
+#about .about-item .about-text{
+    padding-left:15px;
+    background:#7f7770;
+    padding-top:60px;
+    padding-bottom:70px !important;
+    transition:all linear 0.4s;
+}
+#about .about-item .about-text:hover{
+    background:#e2a355;
+    margin-top:-25px;
+}
+#about .about-item .about-text p {
+	margin-top: 30px;
+	padding-right: 40px;
+}
+#about .more{
+    font-size: 18px;
+    margin-top:65px;
+    background: #7f7770;
+    border-radius:30px;
+    padding:6px 20px;
+    transition:all linear 0.4s;
+}
+#about .more:hover{
+    background: #e2a355;
+}
+/* about part ends */
+
+/* discount part starts */
+#discount{
+    margin-top:150px;
+}
+#discount .discount-img-one img{
+    width:105%;
+}
+#discount .discount-text-one {
+	background: #7f7770;
+	padding: 166px 70px;
+}
+#discount .discount-text-one h4 {
+	color: #fff;
+	font-size: 42px;
+}
+#discount .discount-text-one p{
+    color:#fff;
+    font-size:16px;
+    margin-top:40px;
+}
+#discount .discount-text-one a{
+    margin-top:40px;
+    background:#e2a355;
+    border-radius:30px;
+    padding:8px 20px;
+    transition:all linear 0.4s;
+}
+#discount .discount-text-one a:hover{
+    background:#deb37e;
+}
+#discount .discount-img-two img{
+    width: 105%;
+    margin-left: -27px;
+}
+#discount .discount-text-two {
+	background: #deb37e;
+	padding: 164px 70px;
+}
+#discount .discount-text-two h4{
+    color:#fff;
+    font-size: 42px;
+}
+#discount .discount-text-two p{
+    color:#fff;
+    font-size:16px;
+    margin-top:40px;
+}
+#discount .discount-text-two a{
+    margin-top:40px;
+    background:#e2a355;
+    border-radius:30px;
+    padding:8px 20px;
+    transition:all linear 0.4s;
+}
+#discount .discount-text-two a:hover{
+    background:#7f7770;
+}
+/* discount part ends */
+
+/* hiking part starts */
+#hiking{
+    background:#7f7770;
+    margin-top:120px;
+    padding-top:150px;
+    padding-bottom:150px;
+    position: relative;
+}
+#hiking .hiking-head h4{
+    padding-bottom:60px !important;
+    font-size:35px;
+}
+#hiking .hiking-head p {
+	font-size: 18px;
+	color: #dbdbdb;
+	padding: 0 300px;
+}
+#hiking .hiking-img {
+	position: absolute;
+	top: 61px;
+	left: 0px;
+}
+#hiking .hiking-img img {
+	width: 36%;
+}
+/* hiking part ends */
+
+/* explore part starts */
+#explore {
+	background: url(../images/explore.png) no-repeat center/ cover;
+	height: 770px;
+	margin-top: 130px;
+}
+#explore .explore-text h4{
+    margin-top:250px;
+    color:#e2a355;
+    font-size:70px;
+}
+#explore .explore-text h3{
+    margin-top:10px;
+    color:#54524f;
+    font-size:65px;
+}
+/* explore part ends */
+
+/* test part starts */
+#test{
+    margin-top:130px;
+    position: relative;
+}
+#test .test-item h4{
+    color:#deb37e;
+    font-size:25px;
+}
+#test .test-item p{
+    color:#333d42;
+    margin-top:35px;
+}
+#test .test-head p{
+    margin-top:130px;
+    padding: 0 300px;
+}
+#test .test-head h4{
+    margin-top:30px;
+    margin-bottom:100px !important;
+    font-size:30px;
+}
+#test .test-img {
+	position: absolute;
+	top: 130px;
+	right: 0px;
+}
+#test .test-img img {
+	width: 27%;
+}
+/* test part ends */
+
+/* title part starts */
+#title{
+    background:#deb37e;
+}
+#title .title-head h4{
+    margin-top:120px;
+    margin-bottom:70px !important;
+    font-size:50px;
+}
+#title .title-head p {
+	margin-bottom: 70px !important;
+	padding: 0 268px;
+	font-size: 18px;
+}
+#title .form form{
+    padding-bottom:120px !important;
+    position: relative;
+}
+#title .form form input{
+    border-radius:30px;
+}
+#title .form form .btn a {
+	color: #fff;
+	border-radius: 30px !important;
+	background: #54524f;
+	padding: 7px 31px;
+	position: absolute;
+	top: 0;
+	right: 21px;
+    transition:all linear 0.4s;
+}
+#title .form form .btn a:hover{
+    background: #e2a355;
+}
+/* title part ends */
+
+/* footer part starts */
+#footer{
+    background:#7f7770;
+    margin-top:120px;
+    padding-top:150px;
+    padding-bottom:120px !important;
+}
+#footer .footer-title h4{
+    font-size:30px;
+    padding-bottom:35px !important;
+}
+#footer .footer-title p {
+	font-size: 17px;
+	padding-right: 25px;
+    padding-bottom:35px !important;
+}
+#footer .footer-title .social-link a{
+    color:#fff !important;
+    font-size:25px;
+    margin-right:15px;
+}
+#footer .footer-title .social-link a i{
+    transition:all linear 0.4s;
+}
+#footer .footer-title .social-link a i:hover{
+    color:#e2a355;
+}
+#footer .footer-about h4{
+    font-size:30px;
+    padding-bottom:35px !important;
+}
+#footer .footer-about ul li {
+	padding-bottom: 12px !important;
+	font-size: 16px;
+}
+#footer .footer-service h4{
+    font-size:30px;
+    padding-bottom:35px !important;
+}
+#footer .footer-service ul li {
+	padding-bottom: 12px !important;
+	font-size: 16px;
+}
+#footer .footer-other h4{
+    font-size:30px;
+    padding-bottom:35px !important;
+}
+#footer  .footer-other ul li {
+	padding-bottom: 12px !important;
+	font-size: 16px;
+}
+/* footer part ends */
+
+/*=====================
+back to top part starts
+=====================*/
+.back-to-top {
+	position: fixed;
+	bottom: 88px;
+	right: 17px;
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	background: #e2a355;
+	cursor: pointer;
+	z-index: 99999;
+	display: none;
+	border-radius: 8px;
+}
+.back-to-top i {
+	font-size: 20px;
+    color:#fff;
+	line-height: 30px;
+}
+/*=====================
+back to top part ends
+=====================*/
